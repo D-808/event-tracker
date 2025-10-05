@@ -9,24 +9,16 @@ A Python tool to track upcoming events and concerts using the ticketmaster Disco
 - Supports all Ticketmaster regions worldwide
 
 ## Prerequisites
-
 - Python 3.6+
 - Ticketmaster API key (obtain a free key at [developer.ticketmaster.com](https://developer.ticketmaster.com/))
 - This was only tested on MacOS env.
 
-## Installation
-
-```bash
-pip install requests
-```
-
 Follow the prompts:
 1. Enter your Ticketmaster API key
-2. Enter country code (e.g., `NL`, `US`, `GB`)
+2. Enter country code (e.g., `NL`, `US`, `IE`)
 3. Enter city name (optional)
 
 Results are saved locally in .json format
-
 
 [Country Code list](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2)
 
